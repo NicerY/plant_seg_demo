@@ -1,0 +1,39 @@
+API:
+  ak: yCgQn0QMo3fZMRAPUak2D2y1bDk8kpqz
+  color:
+  - 254
+  - 254
+  - 0
+  height: 448
+  map_get_url: https://api.map.baidu.com/staticimage/v2
+  markerStyles: l,A,0xFFFF00
+  scale: 2
+  width: 448
+  zoom: 18
+GPS:
+  IP: 172.28.191.47
+  port: 8001
+gridline:
+  number: 16
+map:
+  center_lat: '32.074971594853006'
+  center_lon: '118.80019307726839'
+  latitude_down: '32.07838159485301'
+  latitude_up: '32.071561594852994'
+  longitude_left: '118.79616307726836'
+  longitude_right: '118.8042130772684'
+transparency:
+  IP: 127.0.0.1
+  address: 35
+  count: 1
+  port: 507
+  unit: 11
+video:
+  IP: 172.28.191.47
+  port: 554
+  stream_name: 'test'
+network:
+  config_path: './mmsegmentation/configs/pspnet/plant_7class.py'
+  checkpoint_path: './mmsegmentation/log/best_mIoU_epoch_117.pth'
+  device: 'cuda:0'
+  palette: [[1,1,1],[244, 35, 232],[102, 102, 156],[190, 10, 10], [50, 10, 150], [220, 220, 0],[0,255,255]]
